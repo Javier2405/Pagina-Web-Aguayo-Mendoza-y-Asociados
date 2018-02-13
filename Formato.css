@@ -1,0 +1,106 @@
+body {
+    background-color: #FAAADD;
+}
+
+h1 {
+    color:black;
+    font-size: 20px;
+    font-family: courier;
+    text-align: center;
+}
+
+h2{
+font-size: 36px;
+font-family: courier;
+text-align: center;
+
+}
+h3{
+  background-color: #152143
+}
+
+
+
+h4{
+  text-align: center;
+  font-size: 40px;
+  color: black;
+
+}
+
+
+p {
+    font-family: georgia;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#color1{
+  background-color: #6face3
+}
+#color2{
+  background-color: #00818c
+}
+#color3{
+  background-color: #6c879a
+}
+#color4{
+  background-color: 	#006062
+}
+#encabezado {
+  width: 1500px;
+  height: 100px;
+  background-color: #2049C1;
+}
+
+#cuadro {
+  width: 1500px;
+  height: 650px;
+  background-color: #D8D8C7;
+}
+
+#lateral{
+  width: 340px;
+  height: 650px;
+  background-color: #2049C1;
+  float: right;
+
+}
+
+#lateral1{
+  width: 340px;
+  height: 650px;
+  background-color: #2049C1;
+  float: left;
+
+}
+#encabezado {
+  background-color: #2049C1;
+}
+#uno,#dos,#tres{
+  font-size: 15px;
+}
+img{
+  padding: 10px;
+  display: block;
+  width: 100px;
+  border-radius: 50px;
+}
+
+#cf img{
+  position:relative;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left: 450px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
