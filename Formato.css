@@ -24,7 +24,8 @@ h3{
 
 #rightarrow,#leftarrow{
  height: 500px;
- opacity:0.4;
+ opacity:0.6;
+ width: 50%;
 }
 
 #titulos{
