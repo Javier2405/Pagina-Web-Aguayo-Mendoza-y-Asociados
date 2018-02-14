@@ -1,4 +1,3 @@
-const PARAGRAPH =document.getElementById("uno");
 var x=1;
 var preguntas=[
   "una pregunta",
@@ -8,7 +7,7 @@ var preguntas=[
   ];
 
 $(document).ready(function(){
-  PARAGRAPH.innerHTML=preguntas[0];
+  document.getElementById("uno");.innerHTML=preguntas[0];
   $("#dos").hide();
   $("#im1").hide();
   $("#im2").hide();
