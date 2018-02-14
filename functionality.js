@@ -17,7 +17,7 @@ var imagenes=[
 $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
   document.getElementById("imash").innerHTML=imagenes[0];
-  setInterval((), 3000);
+  
   $("#prev").click(function(){
     //cambiar mods a la cantidad de preguntas del array
     x=(x+1)%5;
