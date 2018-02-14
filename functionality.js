@@ -8,7 +8,9 @@ var preguntas=[
   "la 5ta pregunta"
   ];
 var imagenes=[
-  "<a href="http://www.eluniversal.com.mx/cartera/finanzas/enterate-10-practicas-indebidas-en-la-e-factura-que-el-sat-detecto" ><img id='im1' src='Articulos/articulo1.png' class='fluid image'></a>",
+  "<a href="http://www.eluniversal.com.mx/cartera/finanzas/enterate-10-practicas-indebidas-en-la-e-factura-que-el-sat-detecto" >
+      <img id='im1' src='Articulos/articulo1.png' class='fluid image'>
+   </a>",
   "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>",
   "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
   ];
