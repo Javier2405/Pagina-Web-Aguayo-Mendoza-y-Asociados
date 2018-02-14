@@ -12,7 +12,7 @@ var imagenes=[
   "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>",
   "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
   ];
-setInterval(myMethod, 5000);
+setInterval(myMethod(), 5000);
 
 function myMethod( )
 {
