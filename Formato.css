@@ -45,6 +45,24 @@ h3{
     border-radius: 20px;
 }
 
+#titulosUX{
+  text-align: center;
+   font-family: courier;
+  font-size: 55px;
+  color: black;
+
+}
+
+#subtitulosUX{
+    color:black;
+    font-size: 25px;
+    font-family: courier;
+    text-align: center;
+    height: 55px;
+    background-color: #A8B4C3;
+    border-radius: 20px;
+}
+
 p {
     font-family: georgia;
     font-size: 20px;
