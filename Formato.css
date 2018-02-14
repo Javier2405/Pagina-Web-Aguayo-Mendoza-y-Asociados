@@ -22,7 +22,9 @@ h3{
   background-color: #A8B4C3;
 }
 
-
+#rightarrow,#leftarrow{
+ height: 500px;   
+}
 
 #titulos{
   text-align: center;
