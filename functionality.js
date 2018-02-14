@@ -1,4 +1,5 @@
-var x=1;
+var x=0;
+var y=1;
 var preguntas=[
   "una pregunta",
   "otra pregunta",
@@ -8,87 +9,56 @@ var preguntas=[
 
 $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
-  $("#dos").hide();
   $("#im1").hide();
   $("#im2").hide();
   $("#prev").click(function(){
-    if(x==1){
-    $("#uno").show();
-    $("#dos").hide();
-    $("#tres").hide();
-    x=2;
-    }
-    else if(x==2){
-    $("#uno").hide();
-    $("#dos").show();
-    $("#tres").hide();
-    x=3;
-    }
-    else{
-      $("#uno").hide();
-      $("#dos").hide();
-      $("#tres").show();
-      x=1;
-    }
+    //cambiar mods a la cantidad de preguntas del array
+    x=(x+1)%5;
+    document.getElementById("uno").innerHTML=preguntas[x];
   });
   $("#next").click(function(){
-    if(x==1){
-    $("#uno").show();
-    $("#dos").hide();
-    $("#tres").hide();
-    x=3;
-    }
-    else if(x==2){
-    $("#uno").hide();
-    $("#dos").show();
-    $("#tres").hide();
-    x=1;
-    }
-    else{
-      $("#uno").hide();
-      $("#dos").hide();
-      $("#tres").show();
-      x=2;
-    }
+    //cambiar mods a la cantidad de preguntas del array YYY cambiar el 4 a la cantidad -1
+    x=(x+4)%5;
+    document.getElementById("uno").innerHTML=preguntas[x];
   });
   $("#rightarrow").click(function(){
-    if(x==1){
+    if(y==1){
     $("#im1").show();
     $("#im2").hide();
     $("#im3").hide();
-    x=3;
+    y=3;
     }
-    else if(x==2){
+    else if(y==2){
     $("#im1").hide();
     $("#im2").show();
     $("#im3").hide();
-    x=1;
+    y=1;
     }
     else{
       $("#im1").hide();
       $("#im2").hide();
       $("#im3").show();
-      x=2;
+      y=2;
     }
   });
   $("#leftarrow").click(function(){
-    if(x==1){
+    if(y==1){
     $("#im1").show();
     $("#im2").hide();
     $("#im3").hide();
-    x=3;
+    y=3;
     }
-    else if(x==2){
+    else if(y==2){
     $("#im1").hide();
     $("#im2").show();
     $("#im3").hide();
-    x=1;
+    y=1;
     }
     else{
       $("#im1").hide();
       $("#im2").hide();
       $("#im3").show();
-      x=2;
+      y=2;
     }
   });
 });
