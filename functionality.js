@@ -1,8 +1,14 @@
+const PARAGRAPH =document.getElementById("uno");
 var x=1;
-
+var preguntas=[
+  "una pregunta",
+  "otra pregunta",
+  "la tercera pregunta",
+  "la 4ta pregunta"
+  ];
 
 $(document).ready(function(){
-  $("#uno").hide();
+  PARAGRAPH.innerHTML=preguntas[0];
   $("#dos").hide();
   $("#im1").hide();
   $("#im2").hide();
