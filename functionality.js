@@ -15,6 +15,15 @@ var imagenes=[
 $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
   document.getElementById("imash").innerHTML=imagenes[0];
+  setInterval(myMethod, 5000);
+
+function myMethod( )
+{
+  x=(x+1)%5;
+  y=(y+1)%3;
+  document.getElementById("uno").innerHTML=preguntas[x];
+  document.getElementById("imash").innerHTML=imagenes[y];
+}
   $("#prev").click(function(){
     //cambiar mods a la cantidad de preguntas del array
     x=(x+1)%5;
