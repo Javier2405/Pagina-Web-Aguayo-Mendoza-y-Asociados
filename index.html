@@ -40,11 +40,36 @@
        </div>
       </h3>
   <div class="centered row">
-    <p class="eight wide column">
-    Aqui va un texto donde explica de lo que se trata la pagina y explica un poco
-    la division entre html, css y javascript y por que es mejor hacer una pagina
-    de esta manera (relleno)
-    </p>
+    <div class="ui shape four wide column">
+            <div class="sides">
+                    <div class="active side">
+                        <p>
+                        <h3>   I consider myself a common and imaginary genius. My passion is the music as well as photography and programming.
+                        I always think how I can give the best of my day to day  and develop myself in all possible areas, especially in former
+                        sciences in order to improve my environment and the environment of others.
+                        </p>
+                        </h3>
+                                <div class="ui small red button" id="translate">Spanish</div>
+                    </div>
+                    <div class="side">
+                        <p>
+                        <h3> Me considero un genio común e imaginario. Mi pasión es la música, así como la fotografía y la programación. Siempre pienso
+                            en cómo puedo dar lo mejor de mi día a día y desarrollarme en todas las áreas posibles, especialmente en las ciencias
+                            exactas para mejorar mi entorno y el de los demás.
+                        </p>
+                        </h3>
+                                <div class="ui small red button" id="translate1">English</div>
+                    </div>
+            </div>
+        </div>
+        <script>
+            $('#translate').click(function(){
+                $('.ui.shape').shape('flip over');
+            });
+            $('#translate1').click(function(){
+                $('.ui.shape').shape('flip over');
+            });
+        </script>
 
 
     <div class="four wide column color red">
