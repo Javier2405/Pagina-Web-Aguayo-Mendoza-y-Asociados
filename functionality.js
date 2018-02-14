@@ -48,21 +48,21 @@ $(document).ready(function(){
   });
   $("#rightarrow").click(function(){
     if(x==1){
-    $("#uno").show();
-    $("#dos").hide();
-    $("#tres").hide();
+    $("#im1").show();
+    $("#im2").hide();
+    $("#im3").hide();
     x=3;
     }
     else if(x==2){
-    $("#uno").hide();
-    $("#dos").show();
-    $("#tres").hide();
+    $("#im1").hide();
+    $("#im2").show();
+    $("#im3").hide();
     x=1;
     }
     else{
-      $("#uno").hide();
-      $("#dos").hide();
-      $("#tres").show();
+      $("#im1").hide();
+      $("#im2").hide();
+      $("#im3").show();
       x=2;
     }
   });
