@@ -92,3 +92,8 @@ img{
 #cf img.top:hover {
   opacity:0;
 }
+@media print{
+    encabezado{
+        display: none;
+    }
+}
