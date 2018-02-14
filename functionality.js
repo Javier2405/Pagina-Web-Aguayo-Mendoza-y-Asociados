@@ -9,8 +9,8 @@ var preguntas=[
   ];
 var imagenes=[
   "<img id='im1' src='Imagenes/Javier.jpg' class='fluid image'>",
-   "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>"
-   "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
+  "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>",
+  "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
   ];
 $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
