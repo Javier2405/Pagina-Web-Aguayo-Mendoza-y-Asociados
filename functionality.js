@@ -7,11 +7,14 @@ var preguntas=[
   "la 4ta pregunta",
   "la 5ta pregunta"
   ];
-
+var imagenes=[
+  "<img id='im1' src='Imagenes/Javier.jpg' class='fluid image'>",
+   "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>"
+   "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
+  ];
 $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
-  $("#im1").hide();
-  $("#im2").hide();
+  document.getElementById("uno").innerHTML=imagenes[0];
   $("#prev").click(function(){
     //cambiar mods a la cantidad de preguntas del array
     x=(x+1)%5;
@@ -23,43 +26,11 @@ $(document).ready(function(){
     document.getElementById("uno").innerHTML=preguntas[x];
   });
   $("#rightarrow").click(function(){
-    if(y==1){
-    $("#im1").show();
-    $("#im2").hide();
-    $("#im3").hide();
-    y=3;
-    }
-    else if(y==2){
-    $("#im1").hide();
-    $("#im2").show();
-    $("#im3").hide();
-    y=1;
-    }
-    else{
-      $("#im1").hide();
-      $("#im2").hide();
-      $("#im3").show();
-      y=2;
-    }
+    y=(y+1)%4;
+    document.getElementById("imash").innerHTML=imagenes[y];
   });
   $("#leftarrow").click(function(){
-    if(y==1){
-    $("#im1").show();
-    $("#im2").hide();
-    $("#im3").hide();
-    y=3;
-    }
-    else if(y==2){
-    $("#im1").hide();
-    $("#im2").show();
-    $("#im3").hide();
-    y=1;
-    }
-    else{
-      $("#im1").hide();
-      $("#im2").hide();
-      $("#im3").show();
-      y=2;
-    }
+    y=(y+3)%4;
+    document.getElementById("uno").innerHTML=imagenes[y];
   });
 });
