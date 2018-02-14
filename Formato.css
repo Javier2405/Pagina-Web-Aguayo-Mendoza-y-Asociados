@@ -52,7 +52,13 @@ p {
   height: 150px;
   background-color: #2049C1;
 }
-
+#im1,#im2,#im3{
+    padding: 10px;
+  display: block;
+  border-radius: 2px;
+  width: 400px;
+  height: 400px;
+}
 #cuadro {
   width: 1500px;
   height: 650px;
@@ -93,7 +99,7 @@ img{
   opacity:0;
 }
 @media print{
-    #encabezadoux{
+    encabezado{
         display: none;
     }
 }
