@@ -26,11 +26,11 @@ $(document).ready(function(){
     document.getElementById("uno").innerHTML=preguntas[x];
   });
   $("#rightarrow").click(function(){
-    y=(y+1)%4;
+    y=(y+1)%3;
     document.getElementById("imash").innerHTML=imagenes[y];
   });
   $("#leftarrow").click(function(){
-    y=(y+3)%4;
-    document.getElementById("uno").innerHTML=imagenes[y];
+    y=(y+2)%3;
+    document.getElementById("imash").innerHTML=imagenes[y];
   });
 });
