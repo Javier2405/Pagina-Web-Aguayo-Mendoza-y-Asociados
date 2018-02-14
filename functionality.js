@@ -7,7 +7,7 @@ var preguntas=[
   ];
 
 $(document).ready(function(){
-  document.getElementById("uno");.innerHTML=preguntas[0];
+  document.getElementById("uno").innerHTML=preguntas[0];
   $("#dos").hide();
   $("#im1").hide();
   $("#im2").hide();
