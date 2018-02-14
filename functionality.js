@@ -1,5 +1,5 @@
 var x=0;
-var y=1;
+var y=0;
 var preguntas=[
   "una pregunta",
   "otra pregunta",
