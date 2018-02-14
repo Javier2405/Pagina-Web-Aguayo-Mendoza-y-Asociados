@@ -1,7 +1,8 @@
 #todo{
     background: url(https://pensive-hermann-420c88.netlify.com/Back.png);
     background-repeat: no-repeat;
-    size: auto;
+    background-size: auto;
+    background-attachment: fixed;
 }
 
 h1 {
