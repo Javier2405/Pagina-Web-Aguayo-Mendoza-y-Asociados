@@ -4,6 +4,8 @@ var x=1;
 $(document).ready(function(){
   $("#uno").hide();
   $("#dos").hide();
+  $("#im1").hide();
+  $("#im2").hide();
   $("#prev").click(function(){
     if(x==1){
     $("#uno").show();
