@@ -19,7 +19,7 @@ text-align: center;
 
 }
 h3{
-  background-color: #152143
+  background-color: #34353E;
 }
 
 
@@ -39,19 +39,16 @@ p {
 }
 
 #color1{
-  background-color: #6face3;
+  background-color: #68697B;
   width: 200px;
-  border-color: white;
 }
 #color2{
-  background-color: #00818c;
+  background-color: #141525;
   width: 200px;
-  border-color: white;
 }
 #color3{
-  background-color: #6c879a;
+  background-color: #C1C2D1;
   width: 200px;
-  border-color: white;
 }
 
 #encabezado {
