@@ -34,9 +34,7 @@ h3{
   color: black;
 
 }
-#cabeza,#carrusel{
- opacity: 0.5;   
-}
+
 #subtitulos{
     color:black;
     font-size: 40px;
@@ -81,7 +79,6 @@ p {
 #contenedor1{
   height: 125px;
   background-color: #A8B4C3;
-  opacity: 0.5;
 }
 
 #carrusel{
