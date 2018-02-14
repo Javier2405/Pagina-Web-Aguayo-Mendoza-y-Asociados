@@ -70,8 +70,7 @@ p {
 img{
   padding: 10px;
   display: block;
-  width: 100px;
-  border-radius: 50px;
+  height: 100px;
 }
 
 #cf img{
