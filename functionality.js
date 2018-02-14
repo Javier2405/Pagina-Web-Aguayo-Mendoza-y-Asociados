@@ -8,7 +8,7 @@ var preguntas=[
   "la 5ta pregunta"
   ];
 var imagenes=[
-  "<img id='im1' src='Articulos/articulo1.png' class='fluid image'>",
+  "<a href="www.google.com"><img id='im1' src='Articulos/articulo1.png' class='fluid image'></a>",
   "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>",
   "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
   ];
