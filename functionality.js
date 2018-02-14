@@ -9,8 +9,8 @@ var preguntas=[
   ];
 var imagenes=[
   "im1",
-  "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>",
-  "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
+  "im2",
+  "im3"
   ];
 
 
