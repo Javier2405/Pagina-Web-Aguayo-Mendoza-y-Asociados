@@ -34,14 +34,17 @@ p {
 #color1{
   background-color: #6face3;
   width: 200px;
+  border-color: ;
 }
 #color2{
   background-color: #00818c;
   width: 200px;
+  border-color: ;
 }
 #color3{
   background-color: #6c879a;
   width: 200px;
+  border-color: ;
 }
 
 #encabezado {
