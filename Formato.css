@@ -92,7 +92,7 @@ img{
   opacity:0;
 }
 @media print{
-    encabezado{
+    #encabezado{
         display: none;
     }
 }
