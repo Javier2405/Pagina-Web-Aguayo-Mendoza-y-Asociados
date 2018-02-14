@@ -66,7 +66,7 @@ $(document).ready(function(){
       x=2;
     }
   });
-  $("leftarrow").click(function(){
+  $("#leftarrow").click(function(){
     if(x==1){
     $("#im1").show();
     $("#im2").hide();
