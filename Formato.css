@@ -99,7 +99,7 @@ img{
   opacity:0;
 }
 @media print{
-    encabezado{
+    navux{
         display: none;
     }
 }
