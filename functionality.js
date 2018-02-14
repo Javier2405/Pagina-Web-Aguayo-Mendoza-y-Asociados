@@ -12,7 +12,6 @@ var imagenes=[
   "<img id='im2' src='Imagenes/Javier1.png' class='fluid image'>",
   "<img id='im3' src='Imagenes/Javier2.png' class='fluid image'>"
   ];
-setInterval(myMethod(), 5000);
 
 function myMethod( )
 {
@@ -21,6 +20,7 @@ function myMethod( )
 $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
   document.getElementById("imash").innerHTML=imagenes[0];
+  setInterval(myMethod(), 5000);
   $("#prev").click(function(){
     //cambiar mods a la cantidad de preguntas del array
     x=(x+1)%5;
