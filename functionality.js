@@ -4,7 +4,8 @@ var preguntas=[
   "una pregunta",
   "otra pregunta",
   "la tercera pregunta",
-  "la 4ta pregunta"
+  "la 4ta pregunta",
+  "la 5ta pregunta"
   ];
 
 $(document).ready(function(){
