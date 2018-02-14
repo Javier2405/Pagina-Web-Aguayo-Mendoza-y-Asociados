@@ -59,20 +59,8 @@ p {
   background-color: #D8D8C7;
 }
 
-#lateral{
-  width: 340px;
+#contenedor1{
   height: 650px;
-  background-color: #2049C1;
-  float: right;
-
-}
-
-#lateral1{
-  width: 340px;
-  height: 650px;
-  background-color: #2049C1;
-  float: left;
-
 }
 #encabezado {
   background-color: #2049C1;
