@@ -65,6 +65,7 @@ p {
 #encabezado {
   background-color: #2049C1;
 }
+
 #uno,#dos,#tres{
   font-size: 15px;
 }
@@ -93,6 +94,9 @@ img{
 }
 @media print{
     #encabezado{
+        display: none;
+    }
+    #navbarUX{
         display: none;
     }
 }
