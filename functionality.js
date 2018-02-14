@@ -20,7 +20,8 @@ function myMethod( )
 $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
   document.getElementById("imash").innerHTML=imagenes[0];
-  setInterval(myMethod(), 5000);
+  setInterval(myMethod(), 3000);
+  
   $("#prev").click(function(){
     //cambiar mods a la cantidad de preguntas del array
     x=(x+1)%5;
