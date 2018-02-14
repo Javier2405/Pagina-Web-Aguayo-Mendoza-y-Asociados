@@ -72,7 +72,10 @@ p {
 }
 
 #encabezado {
-  background-color: #2049C1;
+    background: url(https://pensive-hermann-420c88.netlify.com/Back.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 #navbarUX{
