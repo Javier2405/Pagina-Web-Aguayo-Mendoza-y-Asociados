@@ -22,11 +22,9 @@ h3{
   background-color: #A8B4C3;
 }
 #transparent{
- opacity:0.55;   
+ background: rgba(168 ,180 ,195, 0.7);   
 }
-#Logos{
- opacity:1;   
-}
+
 #rightarrow,#leftarrow{
  height: 450px;
  opacity:0.6;
@@ -102,7 +100,7 @@ p {
 
 #contenedor1{
   height: 125px;
-  background-color: #A8B4C3;
+  background: rgba(168 ,180 ,195, 0.7);
 }
 
 #encabezado {
