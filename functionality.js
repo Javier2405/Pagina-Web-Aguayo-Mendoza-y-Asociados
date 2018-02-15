@@ -17,8 +17,8 @@ var respuestas=[
 // cuando pongas comitas dentro de otras comitas hay que usar ' en vez de " para no interferir
 var imagenes=[
   "<a  href='http://www.eluniversal.com.mx/cartera/finanzas/enterate-10-practicas-indebidas-en-la-e-factura-que-el-sat-detecto' target='_blank'><img id='im1' src='Articulos/articulo1.png' class='fluid image'></a>",
-  "<a  href='' target='_blank'><img id='im2' src='Articulos/articulo1.png' class='fluid image'></a>",
-  "<a  href='' target='_blank'><img id='im3' src='Articulos/articulo1.png' class='fluid image'></a>"
+  "<a  href='Fiscalizacion.docx' target='_blank'><img id='im2' src='Articulos/articulo1.png' class='fluid image'></a>",
+  "<a  href='Riesgos.docx' target='_blank'><img id='im3' src='Articulos/articulo1.png' class='fluid image'></a>"
   ];
 
 
