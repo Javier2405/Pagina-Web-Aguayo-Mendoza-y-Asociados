@@ -24,6 +24,9 @@ h3{
 #transparent{
  opacity:0.55;   
 }
+#non{
+ opacity:1;   
+}
 #rightarrow,#leftarrow{
  height: 450px;
  opacity:0.6;
