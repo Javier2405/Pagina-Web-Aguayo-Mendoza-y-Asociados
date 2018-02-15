@@ -1,4 +1,4 @@
-#todo{
+\#todo{
     background: url(https://pensive-hermann-420c88.netlify.com/back.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -23,7 +23,7 @@ h3{
 }
 
 #rightarrow,#leftarrow{
- height: 500px;
+ height: 450px;
  opacity:0.6;
 }
 
@@ -88,11 +88,11 @@ p {
 }
 
 #im1,#im2,#im3{
-    padding: 5px;
-  display: block;
-  border-radius: 2px;
-  width: 550px;
-  height: 500px;
+  padding:0px;
+
+  border-radius: 10px;
+  width: 500px;
+  height: 450px;
 }
 
 #contenedor1{
@@ -116,7 +116,7 @@ p {
 }
 img{
   padding: 10px;
-  display: block;
+
   height: 100px;
 }
 
