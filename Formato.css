@@ -21,7 +21,9 @@ text-align: center;
 h3{
   background-color: #A8B4C3;
 }
-
+#transparent{
+ opacity:0.55;   
+}
 #rightarrow,#leftarrow{
  height: 450px;
  opacity:0.6;
