@@ -80,7 +80,9 @@ p {
     font-size: 20px;
     font-style: oblique;
 }
-
+#color{
+  background-color: #AA3905;
+}
 #color1{
   background-color: #AA3905;
   width: 200px;
