@@ -23,7 +23,10 @@ h3{
 }
 #transparent{
  background: rgba(22 ,11 ,6, 0.65);   
- //background-color: #160B06;
+}
+
+#navbarcolor{
+    background-color: #160B06;
 }
 
 #rightarrow,#leftarrow{
