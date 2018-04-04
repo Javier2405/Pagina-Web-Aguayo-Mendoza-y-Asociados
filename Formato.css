@@ -1,4 +1,4 @@
-#todo{
+.todo{
     background: url(https://pensive-hermann-420c88.netlify.com/Fondo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -21,20 +21,20 @@ text-align: center;
 h3{
   background-color: #160B06;
 }
-#transparent{
+.transparent{
     background-color: #160B06;
 }
 
-#transparent1{
+.transparent1{
      background: rgba(22 ,11 ,6, 0.65);   
 }
 
-#rightarrow,#leftarrow{
+.rightarrow,.leftarrow{
  height: 450px;
  opacity:0.6;
 }
 
-#titulos{
+.titulos{
   text-align: center;
    font-family: courier;
   font-size: 80px;
@@ -42,7 +42,7 @@ h3{
 
 }
 
-#subtitulos{
+.subtitulos{
     color:black;
     font-size: 40px;
     font-family: courier;
@@ -52,7 +52,7 @@ h3{
     border-radius: 20px;
 }
 
-#titulosUX{
+.titulosUX{
   text-align: center;
    font-family: courier;
   font-size: 55px;
@@ -60,7 +60,7 @@ h3{
 
 }
 
-#subtitulosUX{
+.subtitulosUX{
     color:black;
     font-size: 25px;
     font-family: courier;
@@ -70,7 +70,7 @@ h3{
     border-radius: 20px;
 }
 
-#contbasico{
+.contbasico{
     background: rgba(242 ,214 ,201, 0.45);
 }
 
@@ -80,26 +80,22 @@ p {
     font-size: 20px;
     font-style: oblique;
 }
-#color{
+.color{
   background-color: #AA3905;
 }
-#color1{
+.color1{
   background-color: #AA3905;
   width: 200px;
 }
-#color2{
+.color2{
   background-color: #682201;
   width: 200px;
 }
-#color3{
+.color3{
   background-color: #311508;
   width: 200px;
 }
 
-#encabezado {
-  width: 1500px;
-  height: 150px;
-}
 
 #im1,#im2,#im3{
   padding:0px;
@@ -108,19 +104,21 @@ p {
   height: 450px;
 }
 
-#contenedor1{
+.contenedor1{
   height: 200px;
   background: rgba(242 ,214 ,201, 0.45);
 }
 
-#encabezado {
+.encabezado {
     background: url(https://pensive-hermann-420c88.netlify.com/Back.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    width: 1500px;
+    height: 150px;
 }
 
-#navbarUX{
+.navbarUX{
   background-color: #152143
 }
 
