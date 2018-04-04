@@ -31,23 +31,23 @@ $(document).ready(function(){
   document.getElementById("imash").innerHTML=imagenes[0];
   document.getElementById("dos").innerHTML=respuestas[0];
   
-  $("#prev").click(function(){
+  $(".prev").click(function(){
     //cambiar mods a la cantidad de preguntas del array
     x=(x+1)%7;
     document.getElementById("uno").innerHTML=preguntas[x];
     document.getElementById("dos").innerHTML=respuestas[x];
   });
-  $("#next").click(function(){
+  $(".next").click(function(){
     //cambiar mods a la cantidad de preguntas del array YYY cambiar el 4 a la cantidad -1
     x=(x+6)%7;
     document.getElementById("uno").innerHTML=preguntas[x];
     document.getElementById("dos").innerHTML=respuestas[x];
   });
-  $("#rightarrow").click(function(){
+  $(".rightarrow").click(function(){
     y=(y+1)%3;
     document.getElementById("imash").innerHTML=imagenes[y];
   });
-  $("#leftarrow").click(function(){
+  $(".leftarrow").click(function(){
     y=(y+2)%3;
     document.getElementById("imash").innerHTML=imagenes[y];
   });
