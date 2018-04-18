@@ -21,7 +21,7 @@ var respuestas=[
 // cuando pongas comitas dentro de otras comitas hay que usar ' en vez de " para no interferir
 var imagenes=[
   "<iframe width='560' height='315' src='https://www.youtube.com/embed/_CxyQsDaHFk?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
-  "<a  href='http://www.eluniversal.com.mx/cartera/finanzas/enterate-10-practicas-indebidas-en-la-e-factura-que-el-sat-detecto' target='_blank'><img id='im1' src='Articulos/articulo1.png' class='fluid image im1'></a>",
+  "<a  href='http://www.eluniversal.com.mx/cartera/finanzas/enterate-10-practicas-indebidas-en-la-e-factura-que-el-sat-detecto' target='_blank'><amp-img id='im1' src='Articulos/articulo1.png' width='900' height='750' layout='responsive'></amp-img></a>",
   "<a  href='Fiscalizacion.docx' target='_blank'><img id='im2' src='Articulos/art2.png' class='fluid image im2'></a>",
   "<a  href='Riesgos.docx' target='_blank'><img id='im3' src='Articulos/art3.png' class='fluid image im3'></a>"
   ];
@@ -31,7 +31,7 @@ $(document).ready(function(){
   document.getElementById("uno").innerHTML=preguntas[0];
   document.getElementById("imash").innerHTML=imagenes[0];
   document.getElementById("dos").innerHTML=respuestas[0];
-  
+
   $(".prev").click(function(){
     //cambiar mods a la cantidad de preguntas del array
     x=(x+1)%7;
