@@ -20,7 +20,7 @@ var respuestas=[
 ];
 // cuando pongas comitas dentro de otras comitas hay que usar ' en vez de " para no interferir
 var imagenes=[
-  "<iframe width='560' height='315' src='https://www.youtube.com/embed/_CxyQsDaHFk?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
+  '<amp-youtube data-videoid="_CxyQsDaHFk"  layout="responsive"  width="560" height="315"></amp-youtube>',
   "<a  href='http://www.eluniversal.com.mx/cartera/finanzas/enterate-10-practicas-indebidas-en-la-e-factura-que-el-sat-detecto' target='_blank'><amp-img id='im1' src='Articulos/articulo1.png' width='900' height='750' layout='responsive'></amp-img></a>",
   "<a  href='Fiscalizacion.docx' target='_blank'><amp-img id='im2' src='Articulos/art2.png' width='900' height='750' layout='responsive'></amp-img></a>",
   "<a  href='Riesgos.docx' target='_blank'><amp-img id='im3' src='Articulos/art3.png' width='900' height='750' layout='responsive'></amp-img></a>"
